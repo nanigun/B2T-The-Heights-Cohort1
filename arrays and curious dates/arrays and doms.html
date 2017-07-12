@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+
+		
+
+		<p id="input"></p>
+
+		<script type="text/javascript">
+		//Arrays - adding and removing elements
+		var fruits = ["apple", "orange", "kiwi"];
+		fruits.push(prompt('add new fruit'));
+		fruits.shift();
+		fruits.sort();
+
+
+			document.getElementById('input').innerHTML = fruits.join( ' with ');
+			
+
+	</script>
+	</body>
+</html>
